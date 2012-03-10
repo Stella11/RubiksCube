@@ -1,0 +1,35 @@
+This is a simple Rule Based Export system AI project done on solving rubik's cube.
+This project is NOT GUI.
+You need to write the cube information in a particular format (will be provided later) in the main file (com.bunkdeath package)
+the format is 
+
+       1 2 3
+       4 5 6
+       7 8 9
+
+1 2 3  1 2 3  1 2 3  1 2 3                 (top)
+4 5 6  4 5 6  4 5 6  4 5 6        (left)   (front)   (right)   (back)
+7 8 9  7 8 9  7 8 9  7 8 9                 (bottom)
+
+       1 2 3
+       4 5 6
+       7 8 9
+
+and in pattern (top)(left)(front)(right)(back)(bottom)
+
+eg if the color combination of the cube is 
+
+       r g o
+       w y w
+       w w w
+b r b  o o o  g g y  g o y
+y g w  b o y  b b b  o r r
+r r b  o b w  b y g  r y w
+       y r r
+       g w g
+       g o y
+
+then the config will be
+config = "rgowywwwwbrbygwrrboooboyobwggybbbbyggoyorrrywyrrgwggoy"
+
+and run the program
